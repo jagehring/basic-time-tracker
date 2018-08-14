@@ -24,7 +24,7 @@
 <div class="card mb-3">
   <div class="card-header">{{ gmdate("H:i:s", $onetime->duration) }}</div>
   <div class="card-body">
-    <h5 class="card-title">Light card title</h5>
+    
     <p class="card-text">{{$onetime->comment}}</p>
   </div>
 </div>
